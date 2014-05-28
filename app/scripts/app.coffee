@@ -10,8 +10,7 @@ angular.module('oldsaltApp', [
     $routeProvider
       .when '/',
         templateUrl: 'partials/store/main'
-        controller: 'MainCtrl'
-      
+        # controller: 'MainCtrl'
       .when '/login',
         templateUrl: 'partials/login'
         controller: 'LoginCtrl'
